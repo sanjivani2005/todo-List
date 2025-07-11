@@ -1,0 +1,29 @@
+.signin-container {
+  height: 100vh;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin-form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.signin-btn {
+  background-color: rgba(250, 61, 8, 0.94);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.signin-btn:hover {
+  background-color: rgba(220, 50, 5, 0.94);
+}

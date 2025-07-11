@@ -1,0 +1,27 @@
+.todo-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-text {
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+.btn-primary {
+  background-color: rgba(250, 61, 8, 0.94);
+  border-color: rgba(250, 61, 8, 0.94);
+}
+
+.btn-primary:hover {
+  background-color: rgba(220, 50, 5, 0.94);
+  border-color: rgba(220, 50, 5, 0.94);
+}
